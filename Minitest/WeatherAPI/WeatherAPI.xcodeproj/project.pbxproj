@@ -6,21 +6,8 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D7F4E78D2AFB360B00A41B24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73BE0F62AFA9342000B2BF4 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D71110672AFB35530005A1C7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		D73BE0F12AFA9342000B2BF4 /* CopyFiles */ = {
+		D78D12D22AFB36BB0046C682 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -32,20 +19,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D71110692AFB35530005A1C7 /* API */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = API; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73BE0F32AFA9342000B2BF4 /* minitest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = minitest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73BE0F62AFA9342000B2BF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D78D12D42AFB36BB0046C682 /* WeatherAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WeatherAPI; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78D12DE2AFB8A970046C682 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D71110662AFB35530005A1C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D73BE0F02AFA9342000B2BF4 /* Frameworks */ = {
+		D78D12D12AFB36BB0046C682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,87 +34,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D73BE0EA2AFA9342000B2BF4 = {
+		D78D12CB2AFB36BB0046C682 = {
 			isa = PBXGroup;
 			children = (
-				D73BE0F52AFA9342000B2BF4 /* minitest */,
-				D73BE0F42AFA9342000B2BF4 /* Products */,
+				D78D12D62AFB36BB0046C682 /* WeatherAPI */,
+				D78D12D52AFB36BB0046C682 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D73BE0F42AFA9342000B2BF4 /* Products */ = {
+		D78D12D52AFB36BB0046C682 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D73BE0F32AFA9342000B2BF4 /* minitest */,
-				D71110692AFB35530005A1C7 /* API */,
+				D78D12D42AFB36BB0046C682 /* WeatherAPI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D73BE0F52AFA9342000B2BF4 /* minitest */ = {
+		D78D12D62AFB36BB0046C682 /* WeatherAPI */ = {
 			isa = PBXGroup;
 			children = (
-				D73BE0F62AFA9342000B2BF4 /* main.swift */,
+				D78D12DE2AFB8A970046C682 /* Test.playground */,
 			);
-			path = minitest;
+			path = WeatherAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D71110682AFB35530005A1C7 /* API */ = {
+		D78D12D32AFB36BB0046C682 /* WeatherAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D711106D2AFB35530005A1C7 /* Build configuration list for PBXNativeTarget "API" */;
+			buildConfigurationList = D78D12DB2AFB36BB0046C682 /* Build configuration list for PBXNativeTarget "WeatherAPI" */;
 			buildPhases = (
-				D71110652AFB35530005A1C7 /* Sources */,
-				D71110662AFB35530005A1C7 /* Frameworks */,
-				D71110672AFB35530005A1C7 /* CopyFiles */,
+				D78D12D02AFB36BB0046C682 /* Sources */,
+				D78D12D12AFB36BB0046C682 /* Frameworks */,
+				D78D12D22AFB36BB0046C682 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = API;
-			productName = API;
-			productReference = D71110692AFB35530005A1C7 /* API */;
-			productType = "com.apple.product-type.tool";
-		};
-		D73BE0F22AFA9342000B2BF4 /* minitest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D73BE0FA2AFA9342000B2BF4 /* Build configuration list for PBXNativeTarget "minitest" */;
-			buildPhases = (
-				D73BE0EF2AFA9342000B2BF4 /* Sources */,
-				D73BE0F02AFA9342000B2BF4 /* Frameworks */,
-				D73BE0F12AFA9342000B2BF4 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = minitest;
-			productName = minitest;
-			productReference = D73BE0F32AFA9342000B2BF4 /* minitest */;
+			name = WeatherAPI;
+			productName = WeatherAPI;
+			productReference = D78D12D42AFB36BB0046C682 /* WeatherAPI */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D73BE0EB2AFA9342000B2BF4 /* Project object */ = {
+		D78D12CC2AFB36BB0046C682 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					D71110682AFB35530005A1C7 = {
-						CreatedOnToolsVersion = 15.0.1;
-					};
-					D73BE0F22AFA9342000B2BF4 = {
+					D78D12D32AFB36BB0046C682 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = D73BE0EE2AFA9342000B2BF4 /* Build configuration list for PBXProject "minitest" */;
+			buildConfigurationList = D78D12CF2AFB36BB0046C682 /* Build configuration list for PBXProject "WeatherAPI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,59 +101,28 @@
 				en,
 				Base,
 			);
-			mainGroup = D73BE0EA2AFA9342000B2BF4;
-			productRefGroup = D73BE0F42AFA9342000B2BF4 /* Products */;
+			mainGroup = D78D12CB2AFB36BB0046C682;
+			productRefGroup = D78D12D52AFB36BB0046C682 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D73BE0F22AFA9342000B2BF4 /* minitest */,
-				D71110682AFB35530005A1C7 /* API */,
+				D78D12D32AFB36BB0046C682 /* WeatherAPI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D71110652AFB35530005A1C7 /* Sources */ = {
+		D78D12D02AFB36BB0046C682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D73BE0EF2AFA9342000B2BF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F4E78D2AFB360B00A41B24 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D711106E2AFB35530005A1C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LCS9Z7U4VZ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D711106F2AFB35530005A1C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LCS9Z7U4VZ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		D73BE0F82AFA9342000B2BF4 /* Debug */ = {
+		D78D12D92AFB36BB0046C682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		D73BE0F92AFA9342000B2BF4 /* Release */ = {
+		D78D12DA2AFB36BB0046C682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +240,7 @@
 			};
 			name = Release;
 		};
-		D73BE0FB2AFA9342000B2BF4 /* Debug */ = {
+		D78D12DC2AFB36BB0046C682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -324,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		D73BE0FC2AFA9342000B2BF4 /* Release */ = {
+		D78D12DD2AFB36BB0046C682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -338,34 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D711106D2AFB35530005A1C7 /* Build configuration list for PBXNativeTarget "API" */ = {
+		D78D12CF2AFB36BB0046C682 /* Build configuration list for PBXProject "WeatherAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D711106E2AFB35530005A1C7 /* Debug */,
-				D711106F2AFB35530005A1C7 /* Release */,
+				D78D12D92AFB36BB0046C682 /* Debug */,
+				D78D12DA2AFB36BB0046C682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D73BE0EE2AFA9342000B2BF4 /* Build configuration list for PBXProject "minitest" */ = {
+		D78D12DB2AFB36BB0046C682 /* Build configuration list for PBXNativeTarget "WeatherAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73BE0F82AFA9342000B2BF4 /* Debug */,
-				D73BE0F92AFA9342000B2BF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D73BE0FA2AFA9342000B2BF4 /* Build configuration list for PBXNativeTarget "minitest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D73BE0FB2AFA9342000B2BF4 /* Debug */,
-				D73BE0FC2AFA9342000B2BF4 /* Release */,
+				D78D12DC2AFB36BB0046C682 /* Debug */,
+				D78D12DD2AFB36BB0046C682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D73BE0EB2AFA9342000B2BF4 /* Project object */;
+	rootObject = D78D12CC2AFB36BB0046C682 /* Project object */;
 }
